@@ -14,8 +14,9 @@ async def on_command_error(ctx, error):
 
 
 @bot.command()
-async def ping(ctx):
-    await ctx.send('pong')
+async def sys(ctx,arg):
+    if arg == 'test':
+        await ctx.send('、、、テストメッセージを確認。システムDAL9000は正常に稼働中です。', tts=True)
 
 
 bot.run(token)

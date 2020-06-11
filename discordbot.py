@@ -26,7 +26,7 @@ async def sys(ctx,arg):
         await ctx.send('、、、敵戦艦をロスト。付近に敵勢力は確認できません。ただ今より警戒時間に移ります。脱出した民間人を回収するため、本船は脱出ポッド回収モードになります。１０分後、緊急対応モードは解除されます。', tts=True)
     elif arg == 'cleanup':
         await ctx.send('、、、データ削除コードを確認。システムログを削除します。', tts=True)
-        await ctx.purge()
+        await ctx.channel.purge()
     ##code に返信
     elif arg == 'a297f':
         await ctx.send('、、、コードを認証しました。直近の編集情報を表示します。', tts=True)

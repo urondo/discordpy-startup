@@ -80,8 +80,8 @@ async def sys(ctx,arg):
     #エンディング用
     elif arg == 'z000z':
         await ctx.send('、、、コードを認証しました。船内システムから「敵艦隊の編成」情報を報告しました。', tts=True)
-    elif arg[0:5] == 'end_':
-        await ctx.send('、、、キーワードを認証しました。' + arg[5:] + 'から「敵艦隊の編成」情報を報告しました。', tts=True)
+    elif arg[0:4] == 'end_':
+        await ctx.send('、、、キーワードを認証しました。' + arg[4:] + 'から「敵艦隊の編成」情報を報告しました。', tts=True)
     
     #おまけコード
     elif arg == 'DAL9000':

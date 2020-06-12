@@ -19,7 +19,7 @@ async def sys(ctx,arg):
         await ctx.send('、、、テストメッセージを確認。システムDAL9000は正常に稼働中です。', tts=True)
     elif arg == 'help_l':
         await ctx.send('、、、補助コードを確認。コード一覧を表示します。', tts=True)
-        await ctx.send('<code>\nalert0：プロローグの１つ目の「」を読み上げます。\nalert1：プロローグの2つ目の「」を読み上げます。\ncleanup：テキストログを削除します。\ntest：テストメッセージです。\nつ目の「」を読み上げます。\ncleanup：テキストログを削除します。\ntest：テストメッセージです。\n</code>')
+        await ctx.send('<code>\nalert0：プロローグの１つ目の「」を読み上げます。\nalert1：プロローグの2つ目の「」を読み上げます。\ncleanup：テキストログを削除します。\ntest：テストメッセージです。\n</code>')
     elif arg == 'alert0':
         await ctx.send('、、、アラート！　敵戦艦をレーダーに捕捉。緊急対応モードに移行します。マグネティックセイルを展開、対重力フィールドを発動、、、、、船の停止を確認。動力システムをロック。中長距離通信を制限します。ただ今よりステルス状態になります。もし民間人が乗船している場合は、速やかに脱出ポッドで脱出してください。', tts=True)
     elif arg == 'alert1':
